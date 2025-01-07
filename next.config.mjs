@@ -12,7 +12,8 @@ const nextConfig = {
         permanent: true,
       },
     ]
-  }
+  },
+  output: 'standalone'
 }
 
 export default withPayload(nextConfig)
