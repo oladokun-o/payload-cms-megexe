@@ -41,5 +41,11 @@ export default buildConfig({
     payloadCloudPlugin(),
     // storage-adapter-placeholder
   ],
-  cors: ['*', 'http://localhost:5173', 'http://localhost:3000', process.env.WEBSITE_PRODUCTION_URL || 'https://megaexe-dashboard.netlify.app/'],
+  cors: [
+    '*',
+    'http://localhost:5173',
+    'http://localhost:3000',
+    process.env.WEBSITE_PRODUCTION_URL || 'https://megaexe-dashboard.netlify.app',
+    'https://payload-cms-megexe-production.up.railway.app',
+  ],
 })
