@@ -51,7 +51,7 @@ This repository contains the backend code for the Megaexe Screening Test Web App
    ```env
    MONGODB_URI=[Your MongoDB URI]
    PAYLOAD_SECRET=[Your Secret Key]
-   PAYLOAD_PUBLIC_SITE_URL=https://megaexe-dashboard.netlify.app/dashboard
+   PAYLOAD_PUBLIC_SITE_URL=https://megaexe-dashboard.netlify.app/
    ```
 
 4. Start the development server:  
